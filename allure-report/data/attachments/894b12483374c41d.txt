@@ -1,0 +1,1 @@
+visual_user test failed due to error: page.goto: Target page, context or browser has been closed

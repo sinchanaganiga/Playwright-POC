@@ -1,0 +1,2 @@
+problem_user logged in successfully.
+problem_user has broken images on the page.

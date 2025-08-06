@@ -1,0 +1,2 @@
+visual_user logged in successfully.
+visual_user has broken images on the page.

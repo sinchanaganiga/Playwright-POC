@@ -1,0 +1,29 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "report": "npx playwright show-report",
+    "allure:generate": "allure generate ./allure-results --clean -o ./allure-report",
+    "allure:open": "allure open ./allure-report",
+     "test:e2e": "npx playwright test",
+    "test:ct": "npx playwright test -c playwright-ct.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.53.1",
+    "@types/node": "^24.0.4",
+    "allure-playwright": "^3.3.0"
+  },
+  "dependencies": {
+    "@playwright/experimental-ct-react": "^1.54.2",
+    "dotenv": "^16.6.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  }
+}

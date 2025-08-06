@@ -1,0 +1,3 @@
+visual_user test failed due to error: page.goto: Navigation to "https://www.saucedemo.com/" is interrupted by another navigation to "https://www.saucedemo.com/"
+Call log:
+[2m  - navigating to "https://www.saucedemo.com/", waiting until "load"[22m

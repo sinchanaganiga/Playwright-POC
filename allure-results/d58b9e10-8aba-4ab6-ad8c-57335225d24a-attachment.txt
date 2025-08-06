@@ -1,0 +1,3 @@
+visual_user logged in.
+Order placed for visual_user.
+visual_user logged out.
