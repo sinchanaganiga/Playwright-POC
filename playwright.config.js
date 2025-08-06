@@ -7,11 +7,10 @@ export default defineConfig({
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 2 : 0,
   workers: process.env.CI ? 1 : undefined,
-   reporter: [
+  reporter: [
     ['html'],
     ['allure-playwright']
   ],
-
   use: {
     baseURL: 'https://www.saucedemo.com',
     navigationTimeout: 60000,
@@ -21,7 +20,6 @@ export default defineConfig({
     video: 'on',
     trace: 'on-first-retry',
   },
-
   projects: [
     {
       name: 'chromium',
