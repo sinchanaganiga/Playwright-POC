@@ -7,9 +7,9 @@ import { CheckoutPage } from '../pages/CheckoutPage.js';
 import { OverviewPage } from '../pages/OverviewPage.js';
 import { Header } from '../pages/Header.js';
 
-const users = readCSV('utils/checkoutData.csv');
+const data = readCSV('../utils/checkoutData.csv');
 
-for (const user of users) {
+for (const user of data) {
   test(`Complete order flow for ${user.username}`, async ({ page }) => {
     const loginPage = new LoginPage(page);
     const inventoryPage = new InventoryPage(page);

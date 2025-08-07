@@ -3,7 +3,7 @@ import { readCSV } from '../utils/readCSV.js';
 import { getPassword } from '../utils/envReader.js';
 import { LoginPage } from '../pages/LoginPage.js';
 
-const users = readCSV('utils/users.csv');
+const users = readCSV('../utils/users.csv');
 
 test('Login behavior detection for all users', async ({ page }, testInfo) => {
   const loginPage = new LoginPage(page);
